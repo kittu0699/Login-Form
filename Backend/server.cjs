@@ -57,6 +57,8 @@ app.post("/createadmin", (req, res) => {
   });
 });
 
+
+const PORT = process.env.PORT || 9183;
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
