@@ -51,8 +51,39 @@ body {
   button:hover {
     background-color: olive;
   }
-/*   
-  a{
-    text-decoration: none;
-    
-  } */
+
+  /* Responsive Design */
+@media (max-width: 1024px) {
+  .parent {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+  .one, .Two {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .parent {
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  input {
+    width: 80%;
+    font-size: 14px;
+  }
+  button {
+    width: 60%;
+    font-size: 14px;
+  }
+  .social-icons i {
+    font-size: 18px;
+    margin: 5px;
+  }
+}
+
+
+
